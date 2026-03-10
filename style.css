@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wigth@700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +11,12 @@
     text-decoration: none;
     font-family: "Poppins", sans-serif;
 }
+
 ::selection {
     color: black;
     background-color: #bea060;
 }
+
 header {
     width: 100%;
     min-height: 100vh;
@@ -23,6 +25,8 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+/* kanan */
 .header-right-side {
     width: 50%;
     display: flex;
@@ -30,6 +34,7 @@ header {
     align-items: center;
 }
 
+/* kiri */
 .header-left-side{
     padding: 0 0 0 90px;
     color: white;
@@ -41,8 +46,9 @@ header {
     font-size: 45px;
     padding-top: 20px;
     margin-bottom: 20px;
-    font-weight: 300 !important;
+    font-weight: 300;
 }
+
 .header-left-side h2 {
     color:#bea060;
     font-family: "Inter", sans-serif;
@@ -52,6 +58,7 @@ header {
     letter-spacing: 2px;
     padding: 10px;
 }
+
 .header-left-side p {
     margin-top: 5%;
     margin-bottom: 10%;
@@ -60,4 +67,40 @@ header {
     font-size: 16px;
     color: #c1bfbf;
     line-height: 2;
+}
+
+/* ===================== */
+/* RESPONSIVE UNTUK HP */
+/* ===================== */
+
+@media (max-width: 768px) {
+
+header{
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.header-left-side{
+    padding: 0;
+}
+
+.header-right-side{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.header-left-side h1{
+    font-size: 32px;
+}
+
+.header-left-side h2{
+    font-size: 16px;
+}
+
+.header-left-side p{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
 }
