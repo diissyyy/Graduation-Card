@@ -18,7 +18,7 @@
 header {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(16, 37, 16);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,9 +36,9 @@ header {
 }
 
 .header-left-side h1 {
-    color: #bea060;
+    color: #96742a;
     line-height: 1.2em;
-    font-size: 70px;
+    font-size: 45px;
     padding-top: 20px;
     margin-bottom: 20px;
     font-weight: 300 !important;
