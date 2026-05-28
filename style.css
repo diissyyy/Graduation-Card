@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
 
 * {
@@ -73,7 +73,7 @@ header {
 /* RESPONSIVE UNTUK HP */
 /* ===================== */
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
 
 header{
     flex-direction: column;
@@ -83,6 +83,7 @@ header{
 
 .header-left-side{
     padding: 0;
+    width: 100%;
 }
 
 .header-right-side{
@@ -91,7 +92,7 @@ header{
 }
 
 .header-left-side h1{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .header-left-side h2{
@@ -101,6 +102,7 @@ header{
 .header-left-side p{
     font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.8;
 }
 
 }
